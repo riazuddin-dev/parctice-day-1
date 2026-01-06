@@ -1,0 +1,83 @@
+
+
+/* univarsal selector  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.open-sans{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/* header section  */
+.header-section{
+background-color:#FFF8F3;
+background: url(/images/developer.png),url(/images/header_bg.png);
+background-position:top left, bottom right;
+background-repeat: no-repeat;
+margin: 38px 0px 0px 23px;
+
+padding-top: 50px;
+}
+
+.nav-section{display: flex;
+justify-content: space-between;
+width: 80%;
+max-width: 1445px;
+
+margin: 0 auto;
+align-items: center;
+}
+
+/* all btn digine  */
+.btn{ background-color: #FD6E0A; color: #FFF8F3;
+padding: 18px 35px; font-size: 20px; font-weight: bold; border: none; border-radius: 5px; cursor: pointer;}
+
+
+
+.logo h1{ font-size: 45px;font-weight:800;}
+.h-coler{ color:#FD6E0A;}
+.manu{display: flex;
+list-style-type: none;
+align-items: center;
+gap: 50px;}
+.manu li a{font-size: 20px;
+color: #474747;}
+
+
+/* hero section  */
+.hero-section{
+
+  /* border: solid 1px black; */
+  margin: 16px 38px 0 230px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* part1  */
+.part-1 h2{font-size: 45px; color: #474747; margin-bottom:5px;}
+
+.part-1 h1{font-size: 85px; font-weight: bold; color: #181818; margin-bottom: 20px;}
+
+.part-1 a{ font-size: 18px; line-height: 30px; color: #757575;}
+
+/* part-2 */
+
+.part-2{margin-top: 30px;}
+
+
+.part-2 .c-btn{width: 160px; height: 64px; margin-left: 30px; color: #FD6E0A; border-radius: 5px; border: solid 1px #FD6E0A; font-size: 20px; cursor: pointer;}
+
+
+.image{height: 676px; width: 586px;}
+
+img{width: 100%;max-width:586px; vertical-align: middle;}
+
+
+
+
+
+
